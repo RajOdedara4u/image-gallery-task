@@ -9,7 +9,7 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null); // for manage model for single image
   const [page, setPage] = useState(1); // Current page number
 
-  const UNSPLASH_KEY = "DxCPOucJdbcSg_eWyX-TFELdyPQMj8wg2GzCDwkayUU"; // this is my account secret key and also have limits and we can store it into env variable
+  const UNSPLASH_KEY = "Sv7axRJ7FJBtQbzr6GoAzK3G3noWez36WOMnSh2dXuk"; // this is my account secret key and also have limits and we can store it into env variable
 
   // function for tech images from api
   const fetchImages = async (currentPage = 1) => {
